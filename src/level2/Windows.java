@@ -1,28 +1,17 @@
-package level1;
+package level2;
 
 public class Windows {
 
 	//フィールド
-	private String user;
-	private String password;
+	protected String user;
+	protected String password;
 
 	//Windows起動メソッド
 	public void start(){
 		System.out.println("Windowsを起動しました");
 	}
 	
-	//ログインメソッド（ユーザ名/パスワードなし）
-	public void login(){
-		System.out.println("ユーザ名とパスワードを入力してください");
-	}
-	
-	//ログインメソッド（ユーザ名あり/パスワードなし）
-	public void login(String inUser){
-		user = inUser;
-		System.out.println(user + "：パスワードを入力してください");
-	}
-	
-	//ログインメソッド（ユーザ名/パスワードあり）
+	//ログインメソッド
 	public void login(String inUser, String inPassword){
 		user = inUser;
 		password = inPassword;
@@ -41,6 +30,6 @@ public class Windows {
 	
 	//Windows終了メソッド
 	public void shutdown(){
-		System.out.println("Windowsを終了しました");
+		System.out.println("Windowsを起動しました");
 	}
 }
