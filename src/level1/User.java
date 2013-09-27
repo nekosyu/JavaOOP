@@ -10,6 +10,15 @@ public class User {
 		//Windows起動
 		os.start();
 		
+		//ログイン（ユーザ名/パスワードなし）
+		os.login();
+		
+		//ログイン（ユーザ名あり/パスワードなし）
+		os.login("Taro");
+		
+		//ログイン（ユーザ名/パスワードあり）
+		os.login("Taro", "kumamoto");
+		
 		//ウインドウを開くメッセージ
 		os.open();
 
