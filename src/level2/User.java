@@ -4,7 +4,7 @@ public class User {
 
 	public static void main(String[] args) {
 		
-		//Windowsクラスをインスタンス化
+		//WindowsXPクラスをインスタンス化
 		WindowsXP os = new WindowsXP();
 
 		//Windows起動
@@ -22,7 +22,7 @@ public class User {
 		//リモートデスクトップ接続
 		os.remoteDesktop("hanako");
 		
-		//Windows終了
+		//WindowsXP終了
 		os.shutdown();
 
 	}

@@ -30,6 +30,6 @@ public class Windows {
 	
 	//Windows終了メソッド
 	public void shutdown(){
-		System.out.println("Windowsを起動しました");
+		System.out.println("Windowsを終了しました");
 	}
 }

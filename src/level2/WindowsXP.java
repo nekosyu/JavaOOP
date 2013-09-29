@@ -11,13 +11,4 @@ public class WindowsXP extends Windows {
 		System.out.println(user + "から" + remoteUser + "にリモートデスクトップ接続しました");
 	}
 	
-	//Windows起動メソッド（オーバーライド）
-	public void start(){
-		System.out.println("WindowsXPを起動しました");
-	}
-	
-	//Windows終了メソッド（オーバーライド）
-	public void shutdown(){
-		System.out.println("WindowsXPを終了しました");
-	}
 }
