@@ -20,7 +20,7 @@ public class User {
 		os.close();
 		
 		//リモートデスクトップ接続
-		os.remoteDesktop("hanako");
+		os.ConnectRemoteDesktop("hanako");
 		
 		//WindowsXP終了
 		os.shutdown();
