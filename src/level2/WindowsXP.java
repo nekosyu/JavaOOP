@@ -2,8 +2,8 @@ package level2;
 
 public class WindowsXP extends Windows {
 
-	//フィールド（追加）
-	protected String remoteUser;
+	//フィールド（追加）[
+	String remoteUser;
 	
 	//リモートデスクトップ接続メソッド（追加）
 	public void connectRemoteDesktop(String inRemoteUser){
