@@ -5,8 +5,8 @@ public class User {
 	public static void main(String[] args) {
 		
 		//クラスのインスタンス化
-		Windows[] aryWindows ={ new Windows(),
-													new Windows(),
+		Windows[] aryWindows ={ new WindowsVista(),
+													new WindowsXP(),
 													new WindowsXP(),
 													new WindowsXP(),
 													new WindowsXP(),

@@ -1,15 +1,13 @@
 package level5;
 
-public class Windows {
+public abstract class Windows {
 
 	//フィールド
 	protected String user;
 	protected String password;
 
 	//Windows起動メソッド
-	public void start(){
-		System.out.println("Windowsを起動しました");
-	}
+	public abstract void start();
 	
 	//ログインメソッド
 	public void login(String inUser, String inPassword){
@@ -29,7 +27,6 @@ public class Windows {
 	}
 	
 	//Windows終了メソッド
-	public void shutdown(){
-		System.out.println("Windowsを終了しました");
-	}
+	public abstract void shutdown();
+	
 }
