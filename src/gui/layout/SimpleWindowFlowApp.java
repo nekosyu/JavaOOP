@@ -11,9 +11,9 @@ import javax.swing.JTextField;
 public class SimpleWindowFlowApp extends JFrame{
 
 	//フィールド（画面上の部品格納）
-	JLabel label1;
-	JButton button1;
-	JTextField text1;
+	private JLabel label1;
+	private JButton button1;
+	private JTextField text1;
 	
 	//コンストラクタ
 	public SimpleWindowFlowApp(){
