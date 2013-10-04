@@ -1,6 +1,6 @@
 package level6;
 
-public abstract class Windows {
+public abstract class Windows implements Software {
 
 	//フィールド
 	protected String user;

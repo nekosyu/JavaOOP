@@ -22,4 +22,17 @@ public class WindowsXP extends Windows {
 	public void shutdown(){
 		System.out.println("WindowsXPを終了しました");
 	}
+	
+	//インストールメソッド（オーバーライド）
+	@Override
+	public void install(){
+		System.out.println("WindowsXPをインストールします");
+	}
+	
+	//アンインストールメソッド（オーバーライド）
+	@Override
+	public void uninstall(){
+		System.out.println("WindowsXPをアンインストールします");
+	}
+	
 }
